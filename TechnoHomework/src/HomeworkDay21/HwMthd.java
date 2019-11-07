@@ -55,11 +55,9 @@ public class HwMthd {
         	
         	 
 }
-class Sentence{
-	public String s="Tugba";
-	public int a=5;
-}
-        	 
+
+	
+      	 
         	 
         		   
         	 
