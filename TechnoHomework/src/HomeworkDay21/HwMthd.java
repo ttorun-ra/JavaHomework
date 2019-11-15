@@ -31,12 +31,10 @@ public class HwMthd {
         	  for(int a=0;a<name.length(); a++ )
         	  {
         		  if (name.charAt(a) == space) {
-        			  count= count+1;
-        			  
+        			  count= count+1;        			  
         			  
         		  }
-        		  
-        		  
+        		         		  
         	  }
         	   
         	   return count+1;
