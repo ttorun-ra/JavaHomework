@@ -1,6 +1,6 @@
 package HomeworkDay32;
 
-public class Food {
+ class Food {
 
 	
 		 // create class Food
@@ -25,4 +25,5 @@ public class Food {
       public static int totalWeight(int w,int w2)  {
     	  return w+w2;
       }
+     
 }

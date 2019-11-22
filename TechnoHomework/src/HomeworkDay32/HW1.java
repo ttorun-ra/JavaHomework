@@ -10,16 +10,15 @@ public class HW1 {
     // ex: I go to store and bought a water
     // ex: I go to store and bought a sugar
 	
-	        buyItem("I go to store and bought milk");
-	        buyItem("I go to store and bought water");
-	        buyItem("I go to store and bought sugar");
+        buyItem("I go to store and bought milk");
+        buyItem("I go to store and bought water");
+        buyItem("I go to store and bought sugar");
 	
 	
-	}
-		
-	public static void buyItem(String items) {
-		System.out.println(items);
-		
-		
-	}
 }
+		
+        public static void buyItem(String items) {
+	               System.out.println(items);
+	
+}
+}    
