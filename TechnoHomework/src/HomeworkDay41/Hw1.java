@@ -203,25 +203,26 @@ package HomeworkDay41;
 //	Class Y
 
 //What will be the output of the following Java program?
-//class X
-//{
-//    public X(int i)
-//    {
-//        System.out.println(1);
-//    }
-//}
-// 
-//class Y extends X
-//{
-//    public Y(2){
-//    
-//        System.out.println(2);
-//    }
-//}
+class X
+{
+    public X(int i)
+    {
+        System.out.println(1);
+    }
+}
+ 
+class Y extends X
+{
+    public Y(int i){ // added parameter
+    	
+    super(i); // added super (i)
+        System.out.println(2);
+    }
+}
+
+  
 //
-//}  
-//
-//Answer:Compile Error
+//Answer:Compile Error, it is fixed.
 
 
 
