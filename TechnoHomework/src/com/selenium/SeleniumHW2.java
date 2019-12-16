@@ -20,7 +20,7 @@ public class SeleniumHW2 {
 	    
 	    List<WebElement> option = driver.findElements( By.className( "cb1-element" ) );
 	    
-	    for(int i=0;i<4;i++) {
+	    for(int i=0;i<option.size();i++) {
 	    	
          option.get( i ).click();
               	    
@@ -35,7 +35,7 @@ public class SeleniumHW2 {
 		   System.out.println("Fail");
 	   }
 	   
-	    for(int i=0;i<4;i++) {
+	    for(int i=0;i<option.size();i++) {
 	    	
 	         option.get( i ).click();
 	         
